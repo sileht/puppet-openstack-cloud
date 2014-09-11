@@ -80,6 +80,9 @@ mod 'elasticsearch',
 mod 'git',
   :git => 'git://github.com/enovance/puppetlabs-git.git',
   :ref => '0df1f62130a7752c728efb7555f2b07ca178ee5b'
+mod 'hiera',
+  :git => 'git://github.com/enovance/puppet-hiera.git',
+  :ref => '1d407be61d800034409e4595a6fb73004b10f70f'
 mod 'firewall',
   :git => 'git@github.com:enovance/puppetlabs-firewall.git',
   :ref => '6540b31b0ca0727094ddf44436274436d2853d6d'
@@ -92,6 +95,15 @@ mod 'haproxy',
 mod 'inifile',
   :git => 'git://github.com/enovance/puppetlabs-inifile.git',
   :ref => 'ae23a4db97d2815ec305d0529912685f07746d3c'
+mod 'java',
+  :git => 'git://github.com/enovance/puppetlabs-java.git',
+  :ref => '5f60d5e2c041848b4c3e71c0aa6ba99b87774d4a'
+mod 'jenkins',
+  :git => 'git://github.com/enovance/puppet-jenkins.git',
+  :ref => '09b8cbc858eb9507009aa56c9895fd126977c9a7'
+mod 'jenkins_job_builder',
+  :git => 'git://github.com/enovance/puppet-jenkins_job_builder.git',
+  :ref => '579939b0e637432fe3e14f297a3af6e6a7ddb1d8'
 mod 'keepalived',
   :git => 'git://github.com/enovance/puppet-module-keepalived.git',
   :ref => 'eb345b6d3b25106cbe166028f2b8dd9974a10230'
@@ -125,6 +137,9 @@ mod 'ntp',
 mod 'pacemaker',
   :git => 'git://github.com/enovance/puppet-pacemaker.git',
   :ref => '56bbb3580bb7fa62bf57c2ed7a30b938e42b8cc3'
+mod 'puppetdb',
+  :git => 'git://github.com/enovance/puppetlabs-puppetdb.git',
+  :ref => 'ed6579b6eaf2c98c8220c41990850949e48b86b4'
 mod 'rabbitmq',
   :git => 'git://github.com/enovance/puppetlabs-rabbitmq.git',
   :ref => '25420cb3c26c9a8432ab519d43c094d614d4fec4'
