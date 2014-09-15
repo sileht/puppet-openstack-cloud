@@ -86,7 +86,7 @@ fixtures:
       ref: 'd009260de3c7623003318555ec5ca61217ea3ca1'
     'ntp':
       repo: 'git://github.com/enovance/puppetlabs-ntp.git'
-      ref: 'eb02ba2937ce86fb609ae41499767244b78ec58d'
+      ref: 'a6d78648f6876f551a93ce7109067fcd1793b59f'
     'sysctl':
       repo: 'git://github.com/enovance/puppet-sysctl.git'
       ref: '4a463384e844f51b270428643a5b8beb3628e854'

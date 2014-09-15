@@ -122,9 +122,11 @@ mod 'mongodb',
 mod 'mysql',
   :git => 'git://github.com/enovance/puppetlabs-mysql.git',
   :ref => '8b814d4d2cb5786a15e8e37fb3b7444d5d5f0d3f'
+#TODO(EmilienM) come back to upstream after
+# https://github.com/puppetlabs/puppetlabs-ntp/pull/203
 mod 'ntp',
   :git => 'git://github.com/enovance/puppetlabs-ntp.git',
-  :ref => 'eb02ba2937ce86fb609ae41499767244b78ec58d'
+  :ref => 'a6d78648f6876f551a93ce7109067fcd1793b59f'
 mod 'pacemaker',
   :git => 'git://github.com/enovance/puppet-pacemaker.git',
   :ref => '56bbb3580bb7fa62bf57c2ed7a30b938e42b8cc3'
